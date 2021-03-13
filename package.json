@@ -1,0 +1,20 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "creating api to send email",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start":"node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+
